@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../scss/app.scss"],"names":[],"mappings":";AAAA,CAAC,GAAG,CAAC,MAAM,CAAC,CAAC;AACb,IAAI,KAAK,CAAC,CAAC,CAAC,MAAM,CAAC;AACnB","file":"style.scss","sourcesContent":[".btn-orange {\n    color: #ffffff;\n}"]}

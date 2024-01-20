@@ -1,0 +1,8 @@
+{
+	"db_server": "mysql.selfmade.ninja",
+	"db_username": "surya_s",
+	"db_password": "adg1275",
+	"db_name": "surya_s_photogram",
+	"base_path": "/",
+	"upload_path": "/home/Surya.S/photogram_uploads/"
+}
