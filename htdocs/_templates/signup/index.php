@@ -15,7 +15,7 @@ if (isset($_POST['username']) and isset($_POST['password']) and !empty($_POST['p
 if ($signup) {
 	if (!$error) {
 ?>
-		<main class="container">
+		<main class="container mt-5">
 			<div class="bg-light p-5 rounded mt-3">
 				<h1>Signup Success!</h1>
 				<p class="lead">Now you can login from <a href="<?= get_config('base_path') ?>login.php">here</a></p>
@@ -24,7 +24,7 @@ if ($signup) {
 	<?php
 	} else {
 	?>
-		<main class="container">
+		<main class="container mt-5">
 			<div class="bg-light p-5 rounded mt-3">
 				<h1>Signup fail!</h1>
 				<p class="lead">Somethig went wrong! <?= $error ?></a></p>
@@ -34,7 +34,7 @@ if ($signup) {
 	}
 } else {
 	?>
-	<main class="form-signup text-center w-100 m-auto py-5">
+	<main class="form-signup text-center w-100 m-auto py-5 mt-5">
 		<form method="POST" action="signup.php">
 			<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24">
 				<path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />

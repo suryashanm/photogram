@@ -33,7 +33,7 @@ if (!$login_page) {
 } else {
 	?>
 
-	<main class="form-signin text-center w-100 m-auto py-5">
+	<main class="form-signin text-center w-100 m-auto py-5 mt-5">
 		<form method="POST" action="login.php">
 			<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24">
 				<path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
