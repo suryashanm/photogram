@@ -6,6 +6,9 @@
 	<meta name="generator" content="Hugo 0.88.1">
 	<title>Photogram</title>
 
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="<?=get_config('base_path')?>assets/brand/favicon.png" type="image/x-icon">
+
 	<!-- Bootstrap core CSS -->
 	<link
 		href="<?=get_config('base_path')?>assets/dist/css/bootstrap.min.css"
